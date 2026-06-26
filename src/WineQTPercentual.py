@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("../data/WineQT.csv")
+df = pd.read_csv("./data/WineQT.csv")
 
 total_vinhos = len(df)
 vinhos_alta_qualidade = (df["quality"] >= 7).sum()
